@@ -1,0 +1,101 @@
+{
+  "uid" : "b19ee53b4ec4c0f9",
+  "name" : "除法case",
+  "fullName" : "pytest_homework.test_allorder2.TestDiv#test_div_int",
+  "historyId" : "011fa474890d0e36f4a5665fbd2db9fc",
+  "time" : {
+    "start" : 1603800186287,
+    "stop" : 1603800186287,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_end",
+    "time" : {
+      "start" : 1603800185641,
+      "stop" : 1603800185642,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_end::0",
+    "time" : {
+      "start" : 1603800187606,
+      "stop" : 1603800187607,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "除法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_homework"
+  }, {
+    "name" : "suite",
+    "value" : "test_allorder2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "B000000101672K"
+  }, {
+    "name" : "thread",
+    "value" : "19558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_homework.test_allorder2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-100"
+  }, {
+    "name" : "b",
+    "value" : "-50"
+  }, {
+    "name" : "expect",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "b19ee53b4ec4c0f9.json",
+  "parameterValues" : [ "-100", "-50", "2" ]
+}
