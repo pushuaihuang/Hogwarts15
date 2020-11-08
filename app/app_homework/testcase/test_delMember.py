@@ -6,6 +6,7 @@ class TestDemo():
     def setup(self):
         self.main=App()
     def test_del(self,name):
+		name="黄浦帅"
         result=self.main.goto_mainpage().goto_contact().goto_manageMem().Modify_mem(name).del_mem().get_toast()
         assert "管理通讯录" in result
     def teardown(self):
